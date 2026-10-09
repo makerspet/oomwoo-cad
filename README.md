@@ -14,6 +14,12 @@
 
 DIY build instructions [will be posted here](https://makerspet.com/blog/oomwoo-vacuum-build-instructions/). Please visit project home [OOMWOO](https://github.com/makerspet/oomwoo).
 
+## Repository layout
+
+- [`designs/`](designs) - product designs: one folder per product, one subfolder per variant ([how it is organized](designs/README.md)). [`designs/one/stock/`](designs/one/stock) is the OOMWOO One itself.
+- [`lib/`](lib) - off-the-shelf parts, 3D scanned or sourced as STEP
+- [`docs/`](docs) - spec and design references
+
 ## Active work in progress
 
 <img width="955" height="777" alt="oomwoo_base_sept_7" src="https://github.com/user-attachments/assets/a44fb618-ef9e-4ef8-b3fb-0bed5f083be7" />

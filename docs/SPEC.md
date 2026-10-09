@@ -107,7 +107,7 @@ Following modern (2026) consumer mop robot design, OOMWOO One requires
   - the dock only sees 24V?
   - inherit the brick's UL/CE certification?
   - ~reuse 25.2 V stick-vac motors, e.g. Dreame M10-E-4 (25.2 V, 310 W) handheld motor, use for auto-empty~
-- power 1600W, see [X20 dock teardown](docs/dock_teardown_x20.pdf)
+- power 1600W, see [X20 dock teardown](dock_teardown_x20.pdf)
 - ~dock contains USB PD sink, converts power to 20-24V charger contacts~
   - dock charger contacts check for robot's presence (resistance), enable power only when robot is present
 - skip hot air dry, use a regular fan
@@ -121,10 +121,10 @@ Following modern (2026) consumer mop robot design, OOMWOO One requires
   - Maybe prototype the auto-empty tier bagged to de-risk the port/sealing/motor work, then move to bagless once you've validated a cyclone geometry. Ship bagless.
 - bottom extraction auto-empty
   - why? proven, Roborock style; gravity helps dust fall/evacuate vs non-bagless rise; only one, simple robot-side port, one flap - no sealed opening in the robot's dust bin needed; robot-to-dock flat plate-to-plate gasketed mating is relatively simple vs bagged nozzle-into-the-port mating; frees us space in the robot's rear
-- tubing, see [X20 dock teardown](docs/dock_teardown_x20.pdf)
+- tubing, see [X20 dock teardown](dock_teardown_x20.pdf)
   - water 9mm OD clean, 11mm OD dirty, clean mop spray 6mm OD
   - air auto-empty ID 29mm OD 33mm
-- canister present sensors: 2x (clear + dirty water canisters): magnet embedded into canister, hidden hall, see [X20 dock teardown](docs/dock_teardown_x20.pdf)
+- canister present sensors: 2x (clear + dirty water canisters): magnet embedded into canister, hidden hall, see [X20 dock teardown](dock_teardown_x20.pdf)
 - water level sensors
   - clear water tank : floaters magnet/hall
 - TBD sensors
